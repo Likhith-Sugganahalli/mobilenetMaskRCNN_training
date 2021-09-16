@@ -1,0 +1,14 @@
+{
+  "loaded":1,
+  "images_per_gpu": 1,
+  "steps_per_epoch": 100,
+  "detection_min_confidence": 0.9,
+  "epochs": 40,
+  "backbone": "mobilenetv1",
+
+  "dataset_dir": "data",
+  "_comment1": "do not change the order of classes",
+  "classes": ["choco_pie_a"],
+  "coco_weights_path": "mobile_mask_rcnn_coco.h5",
+  "logs_path": "logs"
+}
